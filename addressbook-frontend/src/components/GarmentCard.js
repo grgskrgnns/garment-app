@@ -1,6 +1,5 @@
 export default function GarmentCard({ item }) {
   
-  console.log(item);
   
   return (
     
@@ -24,6 +23,13 @@ export default function GarmentCard({ item }) {
         </div>
       )}
       {item.stock && <p className='mb-0 mt-2'>&#9989;{item.stock}</p>}
+	 
+	  {item.url && (
+        <div>
+          <a href={item.url} target="_blank">Visit Product WebPage</a>
+        </div>
+      )}
     </div>
   )
 }
+

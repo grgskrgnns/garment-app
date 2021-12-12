@@ -1,0 +1,4 @@
+apps:
+- name: garment-app
+  route: garment-app.eu-gb.cf.appdomain.cloud
+  memory: 128M
