@@ -5,11 +5,6 @@ The application was developped with the aim to complete the following task:
 to build a (single page) website that I can search for a garment (e.g. black hat) and
 it should display the garments that match the search criteria.
 
-- Design an infrastructure architecture diagram that can be used to scale the website to
-thousands of searches per second
-Submission Requirements:
-
-
 ## General Design
 
 The technologies used are ReactJS for the frontend and Python for the backend.
