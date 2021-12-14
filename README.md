@@ -22,7 +22,9 @@ For efficiency the search is executed when 3 characters are given.
 
 The decoupled design provides the capability to scale accordingly. Not all requests are served by the same server. 
 The deployment is implemented with docker containers giving the capability for load balance and scaling 
-by the use of appropriate tools.Queries are send to the database concerning the code of the item and the description. 
+by the use of appropriate tools.Queries are send to the database concerning the description of the item. 
+Sequential filters are applied in order to be able to search for more than 1 keywords. 
+Indexing has been selected on the MongoDB database for the respective field. 
 
 
 
